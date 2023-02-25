@@ -14,5 +14,5 @@ class CustomUserAdmin(UserAdmin):
         ('Personal info', {'fields': ('first_name', 'last_name', 'email')}),
         ('Permissions', {'fields': ('is_active', 'is_staff', 'is_superuser', 'groups', 'user_permissions')}),
         ('Important dates', {'fields': ('last_login', 'date_joined')}),
-        ('Extra info', {'fields': ('roll', 'pais', 'steam_id', 'biografia', 'discord')}),
+        ('Extra info', {'fields': ('roll', 'ip')}),
     )
